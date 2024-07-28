@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
-import Profile from "../screens/Profile";
+import Profile from "../screens/ProfileScreen";
+import HomeScreen from "../screens/HomeScreen";
 
 const index = () => {
   return (
     <View>
-      <Text>index</Text>
-      <Profile />
+      <HomeScreen />
     </View>
   );
 };
