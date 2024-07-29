@@ -6,6 +6,7 @@ import Color from "../shared/Color";
 import Header from "../components/Header";
 import Slider from "../components/Slider";
 import PlayList from "../components/PlayList";
+import VideoGridList from "../components/VideoGridList";
 
 const index = () => {
   return (
@@ -13,6 +14,7 @@ const index = () => {
       <Header />
       <Slider />
       <PlayList />
+      <VideoGridList /> 
     </View>
   );
 };
