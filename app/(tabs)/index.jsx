@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, ScrollView } from "react-native";
 import React from "react";
 import Profile from "../screens/ProfileScreen";
 import HomeScreen from "../screens/HomeScreen";
@@ -12,9 +12,11 @@ const index = () => {
   return (
     <View style={styles.container}>
       <Header />
-      <Slider />
-      <PlayList />
-      <VideoGridList /> 
+      <ScrollView>
+        <Slider />
+        <PlayList />
+        <VideoGridList />
+      </ScrollView>
     </View>
   );
 };

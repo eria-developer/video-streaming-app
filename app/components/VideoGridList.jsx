@@ -35,6 +35,30 @@ const VideoGridList = () => {
       imageUrl: "https://i.ytimg.com/vi/P1_ciTwn6fE/maxresdefault.jpg",
       url: "P1_ciTwn6fE",
     },
+    {
+      id: 12,
+      name: "Make Video Using ChatGPT",
+      imageUrl: "https://i.ytimg.com/vi/N7xEs9E9Y4A/maxresdefault.jpg",
+      url: "N7xEs9E9Y4A",
+    },
+    {
+      id: 28,
+      name: "10 Skills AI made useless",
+      imageUrl: "https://i.ytimg.com/vi/EgEW5KP6I2A/maxresdefault.jpg",
+      url: "N7xEs9E9Y4A",
+    },
+    {
+      id: 42,
+      name: "Make Video Using ChatGPT",
+      imageUrl: "https://i.ytimg.com/vi/N7xEs9E9Y4A/maxresdefault.jpg",
+      url: "N7xEs9E9Y4A",
+    },
+    {
+      id: 53,
+      name: "UI Design Tutorial",
+      imageUrl: "https://i.ytimg.com/vi/P1_ciTwn6fE/maxresdefault.jpg",
+      url: "P1_ciTwn6fE",
+    },
   ];
 
   return (
