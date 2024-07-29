@@ -5,12 +5,14 @@ import HomeScreen from "../screens/HomeScreen";
 import Color from "../shared/Color";
 import Header from "../components/Header";
 import Slider from "../components/Slider";
+import PlayList from "../components/PlayList";
 
 const index = () => {
   return (
     <View style={styles.container}>
-     <Header />
-     <Slider />
+      <Header />
+      <Slider />
+      <PlayList />
     </View>
   );
 };
