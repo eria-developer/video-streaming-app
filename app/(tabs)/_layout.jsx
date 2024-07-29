@@ -10,8 +10,20 @@ const _layout = () => {
           name="index"
           options={{ title: "Home", tabBarStyle: { alignSelf: "center" } }}
         />
-        <Tabs.Screen name="profile" />
-        <Tabs.Screen name="playlist" />
+        <Tabs.Screen
+          name="profile"
+          options={{
+            title: "My Profile",
+            tabBarStyle: { alignSelf: "center" },
+          }}
+        />
+        <Tabs.Screen
+          name="playlist"
+          options={{
+            title: "My Playlist",
+            tabBarStyle: { alignSelf: "center" },
+          }}
+        />
       </Tabs>
     </>
   );

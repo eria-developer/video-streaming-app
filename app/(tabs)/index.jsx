@@ -3,11 +3,14 @@ import React from "react";
 import Profile from "../screens/ProfileScreen";
 import HomeScreen from "../screens/HomeScreen";
 import Color from "../shared/Color";
+import Header from "../components/Header";
+import Slider from "../components/Slider";
 
 const index = () => {
   return (
     <View style={styles.container}>
-      <HomeScreen />
+     <Header />
+     <Slider />
     </View>
   );
 };
